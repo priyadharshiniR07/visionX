@@ -32,25 +32,6 @@ body::before {
 
 
 
-=======
-    
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-
-    /* BACKGROUND STYLES */
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-}
-
-
 .container {
     width: 350px;
     background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white for a clean look */
@@ -123,7 +104,6 @@ input[type="password"]:focus {
     outline: none;
     border-color: #4A90E2;
 }
-
 .input-group#upload-file-group {
     flex-direction: column;   /* stack label and input vertically */
     align-items: flex-start;  /* keep label left-aligned */
@@ -139,19 +119,9 @@ input[type="password"]:focus {
 
 
 
-
 .input-group label[for="upload-image"] {
     flex: 1 0 100%;    /* make label take full width */
     margin-bottom: 5px;
-}
-
-
-
-input[type="file"] {
-    flex: 2;
-    font-size: 12px;
-    text-align: center;
-    padding: 6px;
 }
 
 
